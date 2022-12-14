@@ -16,5 +16,12 @@ namespace gelattaria
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form2 = new Form2();
+            this.Hide();
+            form2.Show();
+        }
     }
 }
